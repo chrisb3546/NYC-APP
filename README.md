@@ -14,16 +14,16 @@ The schema should be as follows:
 
 Building:
 
-- name
+<!-- - name
 - country
 - address
 - rent_per_floor
-- number_of_floors
+- number_of_floors -->
 
 Office:
 
-- building
-- company
+<!-- - building -->
+<!-- - company -->
 - floor
 
 Company:

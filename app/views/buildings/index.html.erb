@@ -1,0 +1,10 @@
+<h1>Buildings index page</h1>
+
+
+<%@buildings.each do |building|%>
+<ul>
+<h2><%=link_to building.name, building_path(building)%></h2>
+<h3>Available floors</h3>
+<%=building.number_of_floors_available%>
+</ul>
+<%end %>

@@ -1,0 +1,13 @@
+<h1><%=@building.name%></h1>
+
+
+
+<%=buildings_total_rent(@building)%>
+
+<%@building.companies.each do |company|%>
+<li>
+<%=company.name%>
+</li>
+<%end %>
+
+
